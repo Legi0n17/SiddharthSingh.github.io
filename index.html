@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddharth Singh | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="typing.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">&lt;CyberSec&gt;</div>
+    <!-- <strong>Siddharth</strong> -->
+    <button id="menu-toggle" aria-label="Open menu">&#9776;</button>
+    <nav id="main-nav">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h1>Hi, I'm Siddharth Singh</h1>
+      <div class="typing" id="typed-text"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a cybersecurity and digital forensics postgraduate with a passion for penetration testing, vulnerability assessment, and building secure systems. My journey includes hands-on experience with tools like Burp Suite, Wireshark, Nmap, Metasploit, and developing AI/ML solutions for SQL injection detection.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-grid">
+        <li>Python</li>
+        <li>SQL Injection Testing</li>
+        <li>Burp Suite</li>
+        <li>Nmap & Wireshark</li>
+        <li>Metasploit</li>
+        <li>AI/ML for Security</li>
+        <li>API Pentesting</li>
+        <li>Digital Forensics</li>
+        <li>OWASP TOP 10</li>
+        <li>Nessus</li>
+        <li>Network Security</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>AUTOQL SQLi Tool</h3>
+          <p>A lean Python tool that automates SQL-injection testing by firing dynamic payloads in parallel threads and capturing detailed logs. Dramatically speeds up vulnerability discovery and streamlines reporting during penetration tests.</p>
+          <a href="https://github.com/Legi0n17/AUTOQL">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Advance Keylogger</h3>
+          <p>Engineered a Python keylogger that logs up to 800 keystrokes per minute alongside comprehensive system snapshots, automates exfiltration via email, and gathers detailed host information ideal for robust cybersecurity testing.</p>
+          <a href="https://github.com/Legi0n17/Advance-Keylogger">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>VAmPI Pentest Lab</h3>
+          <p>Setup and pentested the VAmPI vulnerable API environment, uncovering OWASP API Top 10 risks like BOLA, Mass Assignment, Security Misconfigurations—using Burp Suite, Postman, FFuf, and JWT exploit techniques, then delivered concise reports with actionable remediation steps.</p>
+          <a href="https://github.com/Legi0n17/VAmPI-Penetration-Testing-Report">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Siddharth Singh. Built with &lt;3 for cybersecurity.
+  </footer>
+</body>
+</html>
