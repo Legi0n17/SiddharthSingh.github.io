@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: 'Source Code Pro', monospace;
-  background: url(/pexels-markusspiske-1089438.jpg) no-repeat center center fixed;
+  background: URL('pexels-markusspiske-1089438.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #33ff33;
   scroll-behavior: smooth;
